@@ -2,7 +2,7 @@ import os
 import django
 import json
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'alx_backend_graphql_crm.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'alx_backend_graphql.settings')
 django.setup()
 
 from django.test import RequestFactory
